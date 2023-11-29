@@ -1,52 +1,51 @@
 body {
-    font-family: "Comic Sans MS", Tahoma, sans-serif;
+  font-family: "Comic Sans MS", Tahoma, sans-serif;
 }
 
 a {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
 }
 a:hover {
-    color: red;
+  color: red;
 }
 
 hr {
-    border: 0px;
-    border-top: 8px dotted rgb(0, 0, 0);
-    width: 5%;
+  border: 0px;
+  border-top: 8px dotted rgb(0, 0, 0);
+  width: 5%;
 }
 
 h1 {
-    font-size: 3.5rem;
+  font-size: 3.5rem;
 }
 
 h3 {
-    text-align: center;
+  text-align: center;
 }
 
-
 #some {
-    height: 100px;
-    margin: auto;
-    text-align: center;
-    width: 75%;
+  height: 100px;
+  margin: auto;
+  text-align: center;
+  width: 75%;
 }
 
 .first {
-    background-color: rgb(223, 229, 229) ;
+  background-color: rgb(223, 229, 229);
 }
 
 .img {
-    position:relative;
-    width: 50%;
-    height: 50%;
-    align-items: center;
-    margin: auto;
-    display: block;
-}    
+  position: relative;
+  width: 50%;
+  height: 50%;
+  align-items: center;
+  margin: auto;
+  display: block;
+}
 
 .text {
-    margin: auto;
-    text-align: center;
-    width: 75%;
+  margin: auto;
+  text-align: center;
+  width: 75%;
 }
