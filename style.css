@@ -1,25 +1,52 @@
-.rating-box {
-    position: relative;
-    vertical-align: middle;
-    font-size: 3/3em;
-    font-family: FontAwesome;
-    display: inline-block;
-    color: lighten(@grayLight, 25%);
+body {
+    font-family: "Comic Sans MS", Tahoma, sans-serif;
+}
 
-    &:before {
-        content: "\f006 \f006 \f006 \f006 \f006";
-    }
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+}
 
-    .rating {
-        position: absolute;
-        left: 0;
-        top: 0;
-        white-space: nowrap;
-        overflow: hidden;
-        color: #F68127;
+hr {
+    border: 0px;
+    border-top: 8px dotted rgb(0, 0, 0);
+    width: 5%;
+}
 
-        &:before {
-            content: "\f005 \f005 \f005 \f005 \f005";
-        }
-    }
+h1 {
+    font-size: 3.5rem;
+}
+
+h3 {
+    text-align: center;
+}
+
+
+#some {
+    height: 100px;
+    margin: auto;
+    text-align: center;
+    width: 75%;
+}
+
+.first {
+    background-color: rgb(223, 229, 229) ;
+}
+
+.img {
+    position:relative;
+    width: 50%;
+    height: 50%;
+    align-items: center;
+    margin: auto;
+    display: block;
+}    
+
+.text {
+    margin: auto;
+    text-align: center;
+    width: 75%;
 }
